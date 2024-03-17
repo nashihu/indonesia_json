@@ -1,38 +1,16 @@
-Data Provinsi, Kabupaten, Kecamatan, dan Kelurahan/Desa di Indonesia dalam bentuk json
-------------------------------------------------------------------------
+# indonesia_address
 
-Data disini hanya untuk memudahkan membuat autocomplete di aplikasi yang saya buat, tidak cocok untuk ajax, karena ada proteksi ajax beda domain.
+A new Flutter project.
 
-----------
+## Getting Started
 
+This project is a starting point for a Flutter application.
 
-Struktur data
--------------
-> - provinsi.json
-> - kabupaten/[id provinsi].json
-> - kecamatan/[id kabupaten].json
-> - kelurahan/[id kecamatan].json
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-struktur **id** Kabupaten diawali dengan **id** Provinsi.
-
-struktur **id** Kecamatan diawali dengan **id** Provinsi dan **id** Kabupaten.
-
-struktur **id** Kelurahan diawali dengan **id** Provinsi, **id** Kabupaten, dan **id** Kecamatan.
-
-total ada 91.219 data.
-
-
-Contoh Penggunaan
--------------
-Untuk contoh cara pakai menggunakan select2 cek berkas [contoh.html](https://github.com/ibnux/data-indonesia/blob/master/contoh.html)
-
-
-Demo
--------------
-Untuk demo implementasi bisa dilihat disini: [Demo](https://ibnux.github.io/data-indonesia/contoh.html)
-
-### Support iBNuX
-
-[<img src="https://ibnux.github.io/KaryaKarsa-button/karyaKarsaButton.png" width="128">](https://karyakarsa.com/ibnux)
-[<img src="https://ibnux.github.io/Trakteer-button/trakteer_button.png" width="120">](https://trakteer.id/ibnux)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
